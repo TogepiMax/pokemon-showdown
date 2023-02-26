@@ -5971,6 +5971,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Flying",
 		zMove: {boost: {speed: 1}},
 		contestType: "Clever",
+	},
 	floralhealing: {
 		num: 666,
 		accuracy: true,
@@ -21738,4 +21739,4 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
-}}};
+};

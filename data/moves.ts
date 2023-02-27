@@ -4642,6 +4642,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-fieldend', 'move: Electric Terrain');
 			},
 		},
+		secondary: null,
+		target: "all",
+		type: "Electric",
+		zMove: {boost: {spe: 1}},
+		contestType: "Clever",
+	},
 	electricspikes: {
 		num: -103,
 		accuracy: true,
@@ -4676,7 +4682,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		secondary: null,
-		target: "all",
+		target: "foeSide",
 		type: "Electric",
 		zMove: {boost: {spe: 1}},
 		contestType: "Clever",
